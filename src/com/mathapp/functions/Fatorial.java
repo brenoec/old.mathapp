@@ -1,9 +1,9 @@
-package mathfunctions;
+package com.mathapp.functions;
 
-import mathapp.enums.FunctionModeEnum;
-import mathapp.enums.FunctionTypeEnum;
-import mathapp.exceptions.InvalidFunctionModeException;
-import mathfunctions.interfaces.IFunction;
+import com.mathapp.enums.FunctionModeEnum;
+import com.mathapp.enums.FunctionTypeEnum;
+import com.mathapp.exceptions.InvalidFunctionModeException;
+import com.mathapp.functions.interfaces.IFunction;
 
 public class Fatorial implements IFunction {
 

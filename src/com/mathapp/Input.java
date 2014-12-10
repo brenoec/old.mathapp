@@ -1,6 +1,6 @@
-package mathapp;
+package com.mathapp;
 
-import mathapp.enums.FunctionTypeEnum;
+import com.mathapp.enums.FunctionTypeEnum;
 
 public class Input {
 
@@ -14,8 +14,6 @@ public class Input {
 
 		setFunction(args[0]);
 		this.value = Integer.parseInt(args[1]);
-
-		// System.out.print(String.format("%s(%s) = ", function, value));
 	}
 
 	public FunctionTypeEnum getFunction() {

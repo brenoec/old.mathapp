@@ -1,4 +1,4 @@
-package mathapp.exceptions;
+package com.mathapp.exceptions;
 
 public class InvalidFunctionModeException extends Exception {
 	
